@@ -46,5 +46,3 @@ def time_between_shutdowns(loglines):
             break
     end = convert_to_datetime(loglines[-1])        
     return end-start
-            
-    return end-start
